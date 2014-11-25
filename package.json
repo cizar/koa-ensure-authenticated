@@ -1,0 +1,26 @@
+{
+  "name": "koa-ensure-authenticated",
+  "version": "0.0.1",
+  "description": "Koa middleware thats ensure user is authenticated",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cizar/koa-ensure-authenticated"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "authenticated",
+    "login",
+    "user"
+  ],
+  "author": "César Kästli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cizar/koa-ensure-authenticated/issues"
+  }
+}
