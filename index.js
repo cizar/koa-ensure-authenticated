@@ -23,7 +23,7 @@ module.exports = function(options) {
       if (this.session && options.setReturnTo) {
         this.session.returnTo = this.originalUrl || this.req.url
       }
-      return this.redirect(options.redirectUrl || '/')
+      return this.redirect(options.redirectUrl)
     }
     yield next
   }
